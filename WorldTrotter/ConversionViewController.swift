@@ -12,12 +12,10 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet var celsiusLabel: UILabel!
     @IBOutlet var textField: UITextField!
-     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    //change the color of the background based upon the time of day when the tab is opene
     
     var farenheightValue: Double? {
         didSet {
